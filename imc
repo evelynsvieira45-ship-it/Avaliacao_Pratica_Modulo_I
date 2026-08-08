@@ -1,0 +1,21 @@
+# autor: evelyn vieira soares
+# projeto imc
+
+nome = input('digite seu nome')
+peso= float (input ('digite o primeiro valor'))
+altuta= float(input('digite o segundo valor'))
+
+imc= peso / (altura * altura)
+# exibir o resuldado com a variavel
+if imc <= 18.5:
+    print(nome, "voce esta abaixo do peso")
+elif imc <= 24.9: 
+    print(nome, 'voce esta no peso ideal')
+elif imc <= 29.9:
+        print(nome, 'voce esta levemente acima do peso')
+elif imc <= 34.9:
+    print(nome, 'voce esta com obesidade 1')
+elif imc <= 39.9:
+    print(nome, 'voce esta com obesidade 2')
+else: imc <= 40.0
+    print(nome, 'voce esta com obsidade 3')
